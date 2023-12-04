@@ -27,7 +27,7 @@ fn is_game_possible(game: &Game, rule: &HashMap<Cube, u32>) -> bool {
     for (cube_type, count) in rule {
         for draw in &game.draws {
             if let Some(cubes_in_game) = draw.get(cube_type) {
-                if cubes_in_game > &count {
+                if cubes_in_game > count {
                     possible = false;
                     break;
                 }

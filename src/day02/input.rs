@@ -6,7 +6,7 @@ const INPUT: &str = include_str!("../../input/02/input.txt");
 pub fn read() -> Input {
     INPUT
         .trim()
-        .split("\n")
+        .split('\n')
         .map(Game::parse)
         .collect()
 }
@@ -20,7 +20,7 @@ pub struct Game {
 
 impl Game {
     pub fn parse(game_string: &str) -> Self {
-        let mut id: u32;
+        let id: u32;
         let mut draws = vec![];
 
         if let Some((game, rest)) = game_string.trim().split_once(':') {
