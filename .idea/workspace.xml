@@ -11,9 +11,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/01/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/01/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/part1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/part1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/part2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/part2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/02/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/02/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/input.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/input.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02/input.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/input.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02/part1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/part1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02/part2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/part2.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "day1",
+    "git-widget-placeholder": "day2",
     "last_opened_file_path": "//wsl.localhost/Ubuntu/home/shane/dev/rust/aoc2023",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -109,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701406298178</updated>
       <workItem from="1701406300940" duration="20930000" />
-      <workItem from="1701665006829" duration="1588000" />
+      <workItem from="1701665006829" duration="5572000" />
     </task>
     <servers />
   </component>
