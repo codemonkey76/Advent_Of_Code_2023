@@ -8,11 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6208daad-8d85-453a-b428-b1289fe5c825" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/input/01/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/input.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/part1.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/part2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/01/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/01/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/part1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/part1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/part2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/part2.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +36,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2YvVyt6UDZ2zWMghFbcvcDN31fv" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,6 +53,8 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "day1",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/shane/dev/rust/aoc2023",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +77,7 @@
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.3301006" />
+      <window_info anchor="bottom" id="Build" weight="0.3301006" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems View" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
@@ -91,6 +94,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
+  <component name="RsExternalLinterProjectSettings">
+    <option name="tool" value="Clippy" />
+  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
@@ -102,7 +108,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701406298178</updated>
-      <workItem from="1701406300940" duration="20471000" />
+      <workItem from="1701406300940" duration="20930000" />
+      <workItem from="1701665006829" duration="1588000" />
     </task>
     <servers />
   </component>
