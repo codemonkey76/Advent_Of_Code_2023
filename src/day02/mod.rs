@@ -13,7 +13,7 @@ pub fn run_both() -> (Output, Output) {
     (part1::solve(&input), part2::solve(&input))
 }
 
-#[derive(Debug)]
+#[derive(Debug, Eq, PartialEq, Hash, Clone)]
 pub enum Cube {
     Blue,
     Red,

@@ -4,23 +4,36 @@ use crate::day02::input::Game;
 use crate::Output;
 
 pub fn solve(input: &Input) -> Output {
-    println!("Input: {:?}", input);
-    input.iter().map(|_| 0).sum::<u32>().into()
+    let rule: HashMap<Cube, u32> = [
+        (Cube::Red, 12),
+        (Cube::Green, 13),
+        (Cube::Blue, 14)
+    ]
+        .iter()
+        .cloned()
+        .collect();
+
+    input
+        .iter()
+        .filter(|game| is_game_possible(game, &rule))
+        .map(|game| game.id)
+        .sum::<u32>()
+        .into()
+
 }
 
-// Take input of game, return possible or not possible.
-fn is_game_possible(game: Game, rule: HashMap<Cube, u32>) -> bool {
+fn is_game_possible(game: &Game, rule: &HashMap<Cube, u32>) -> bool {
     let mut possible = true;
     for (cube_type, count) in rule {
-        if let Some(cubes_in_game) = game.cubes.get(&cube_type) {
-            // picked some of these in the game
-            if cubes_in_game > *count {
-                possible = false;
-                break;
+        for draw in &game.draws {
+            if let Some(cubes_in_game) = draw.get(cube_type) {
+                if cubes_in_game > &count {
+                    possible = false;
+                    break;
+                }
             }
         }
     }
-    return possible;
+    possible
 }
-// create hashmap containing the larget number of each type
 
