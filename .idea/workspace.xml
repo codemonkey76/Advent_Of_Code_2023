@@ -58,7 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "settings.editor.selected.configurable": "language.rust.cargo.check",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -112,6 +112,7 @@
       <workItem from="1701726089406" duration="3683000" />
       <workItem from="1701731082303" duration="3507000" />
       <workItem from="1701737656453" duration="7594000" />
+      <workItem from="1701749672624" duration="2494000" />
     </task>
     <servers />
   </component>

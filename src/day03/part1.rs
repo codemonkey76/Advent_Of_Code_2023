@@ -20,7 +20,6 @@ pub fn check_string_for_symbol(row: &[char], col: usize, len: usize) -> bool {
     let end_col = if len+col+1 > row.len() { len+col } else { len + col + 1 };
 
     if let Some(slice) = row.get(start_col..end_col) {
-        println!("{}", slice.iter().collect::<String>());
         for char in slice {
             if !char.is_ascii_digit() && *char != '.' {
                 valid = true;

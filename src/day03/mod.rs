@@ -34,3 +34,8 @@ pub struct Position {
     pub col: usize,
     pub row: usize
 }
+impl Position {
+    pub fn new(col: usize, row:usize) -> Self {
+        Position { col, row}
+    }
+}
