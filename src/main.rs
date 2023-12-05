@@ -1,5 +1,6 @@
 pub mod day01;
 pub mod day02;
+pub mod day03;
 
 use std::time::{Duration, Instant};
 use clap::Parser;
@@ -49,6 +50,7 @@ fn run_day(day: u8, timer: &Instant) -> RunResult {
     let run_both = match day {
         1 => day01::run_both,
         2 => day02::run_both,
+        3 => day03::run_both,
         _ => panic!("Day not implemented"),
     };
 
