@@ -5,6 +5,6 @@ const INPUT: &str = include_str!("../../input/01/input.txt");
 pub fn read() -> Input {
     INPUT
         .trim()
-        .split("\n")
+        .split('\n')
         .collect()
 }

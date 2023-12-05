@@ -17,7 +17,7 @@ fn convert_to_digits(input: &str) -> u32 {
     while i < input.len() {
         let mut current_char = input.chars().nth(i).unwrap();
 
-        if let Some(_) = current_char.to_string().parse::<u32>().ok() {
+        if current_char.to_string().parse::<u32>().ok().is_some() {
             result_string.push(current_char);
             i+=1;
             continue;

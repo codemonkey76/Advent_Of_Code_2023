@@ -20,32 +20,38 @@ pub struct Game {
 
 impl Game {
     pub fn parse(game_string: &str) -> Self {
-        let id: u32;
-        let mut draws = vec![];
+        let (game, rest) = game_string
+            .trim()
+            .split_once(':')
+            .expect("No Valid Game");
 
-        if let Some((game, rest)) = game_string.trim().split_once(':') {
-            if let Some((_, game_number_string)) = game.trim().split_once(' ') {
-                id = game_number_string.parse::<u32>().unwrap();
-                for draw in rest.trim().split(';') {
-                    let mut cube_draw: HashMap<Cube, u32> = HashMap::new();
-                    for cube in draw.trim().split(',') {
-                        if let Some((count, color)) = cube.trim().split_once(' ') {
-                            cube_draw.insert(Cube::from(color), count.trim().parse::<u32>().unwrap());
-                        } else {
-                            panic!("Missing count or color");
-                        }
-                    }
-                    draws.push(cube_draw);
-                }
-                Game {
-                    id,
-                    draws
-                }
-            } else {
-                panic!("No valid game number");
-            }
-        } else {
-            panic!("No Valid Game");
-        }
+        let (_, game_number_string) = game
+            .trim()
+            .split_once(' ')
+            .expect("No Valid Game Number");
+
+        let id = game_number_string
+            .parse::<u32>()
+            .expect("Invalid game number");
+
+        let draws = rest
+            .trim()
+            .split(';')
+            .map(|draw| {
+                draw
+                    .trim()
+                    .split(',')
+                    .map(|cube| {
+                        let (count, color) = cube
+                            .trim()
+                            .split_once(' ')
+                            .expect("Missing count or color");
+                        (Cube::from(color), count.parse::<u32>().expect("Invalid count")
+                    )
+            }).collect::<HashMap<Cube, u32>>()
+        }).collect();
+
+        Game { id, draws }
+
     }
 }
