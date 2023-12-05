@@ -1,4 +1,4 @@
-use crate::day03::Input;
+use crate::day03::{FoundNumber, Input};
 use crate::Output;
 
 pub fn solve(input: &Input) -> Output {
@@ -13,29 +13,7 @@ pub fn solve(input: &Input) -> Output {
     filtered.iter().sum::<u32>().into()
 }
 
-#[derive(Debug)]
-pub struct FoundNumber {
-    pub number: String,
-    pub position: Position
-}
-impl FoundNumber {
-    pub fn new(number: String, col: usize, row: usize) -> Self {
-        let position = Position {
-            col, row
-        };
 
-        FoundNumber {
-            number,
-            position
-        }
-    }
-}
-
-#[derive(Debug)]
-pub struct Position {
-    pub col: usize,
-    pub row: usize
-}
 pub fn check_string_for_symbol(row: &[char], col: usize, len: usize) -> bool {
     let mut valid = false;
     let start_col = if col > 0 { col - 1 } else { col };

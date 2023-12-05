@@ -8,13 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6208daad-8d85-453a-b428-b1289fe5c825" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/input/03/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/input.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/part1.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/part2.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/part1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/part1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/part2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/part2.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,7 @@
       <workItem from="1701665006829" duration="5572000" />
       <workItem from="1701726089406" duration="3683000" />
       <workItem from="1701731082303" duration="3507000" />
-      <workItem from="1701737656453" duration="7387000" />
+      <workItem from="1701737656453" duration="7594000" />
     </task>
     <servers />
   </component>

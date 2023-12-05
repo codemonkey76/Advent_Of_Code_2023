@@ -10,3 +10,27 @@ pub fn run_both() -> (Output, Output) {
     let input = input::read();
     (part1::solve(&input), part2::solve(&input))
 }
+
+#[derive(Debug)]
+pub struct FoundNumber {
+    pub number: String,
+    pub position: Position
+}
+impl FoundNumber {
+    pub fn new(number: String, col: usize, row: usize) -> Self {
+        let position = Position {
+            col, row
+        };
+
+        FoundNumber {
+            number,
+            position
+        }
+    }
+}
+
+#[derive(Debug)]
+pub struct Position {
+    pub col: usize,
+    pub row: usize
+}
