@@ -29,13 +29,13 @@ impl FoundNumber {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Position {
     pub col: usize,
     pub row: usize
 }
 impl Position {
-    pub fn new(col: usize, row:usize) -> Self {
-        Position { col, row}
+    pub fn new(row: usize, col:usize) -> Self {
+        Position { row, col }
     }
 }
